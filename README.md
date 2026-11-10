@@ -1,6 +1,12 @@
-# BrowserSkill Drag — 独立导出版
+# browser drag
 
-这是基于 [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) 的本地原生拖拽测试分支，保留 MIT 许可证。本次只将已有实现复制成独立项目，没有替换现用插件、全局 CLI 或任何用户采集 skills。
+**专注于淘宝、天猫等电商平台滑块验证处理的浏览器扩展实验项目。**
+
+browser drag 基于 [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)，将滑块处理所需的原生鼠标拖拽、线性与 Bezier 曲线轨迹，以及配套 CLI/daemon 独立封装，便于接入电商浏览器自动化流程。
+
+项目重点面向淘宝、天猫等电商页面出现滑块验证时的处理与同页结果核验；实际是否通过仍取决于页面和平台验证结果，不以拖拽命令完成代替验证通过。
+
+本项目保留 MIT 许可证。独立发布不替换现用插件、全局 CLI 或用户采集 skills；账号资料与采集数据不包含在仓库中。
 
 ## 包含什么
 
