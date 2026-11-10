@@ -1,0 +1,35 @@
+# This repository is source + prebuilt extension, never browser/account state.
+runtime/
+node_modules/
+target/
+dist/
+.wxt/
+.bsk/
+bsk-home/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.log
+*.zip
+*.crx
+*.exe
+*.dll
+*.pdb
+daemon.json
+profile-mapping.json
+Local State
+Preferences
+Secure Preferences
+Cookies
+Login Data
+History
+# Public upstream loopback-TLS test fixtures, not user certificates.
+!source/crates/bsk-cli/tests/fixtures/remote-tls/cert.pem
+!source/crates/bsk-cli/tests/fixtures/remote-tls/key.pem

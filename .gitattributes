@@ -1,0 +1,2 @@
+# Keep exported bytes stable across Windows/Linux Git checkouts.
+* -text
