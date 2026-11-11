@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img">
+<title>browser drag project schematic</title>
+<rect width="1200" height="600" fill="#F6F4ED"/>
+<text x="56" y="73.6" font-family="Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#17343B">两部分文件，一套配套环境</text>
+<text x="56" y="112.2" font-family="Microsoft YaHei,sans-serif" font-size="18" font-weight="400" fill="#536C70">源码进入仓库，Windows 程序进入 Release；下载后合并目录。</text>
+<rect x="56" y="145" width="510" height="188" rx="16" fill="#FFFFFF" stroke="#D7DFD9"/>
+<rect x="634" y="145" width="510" height="188" rx="16" fill="#FFFFFF" stroke="#D7DFD9"/>
+<text x="80" y="176.8" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#247D75">01 / SOURCE REPOSITORY</text>
+<text x="80" y="224.3" font-family="Microsoft YaHei,sans-serif" font-size="27" font-weight="700" fill="#17343B">源码与可加载扩展</text>
+<text x="80" y="264.0" font-family="Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#17343B">extension/   source/   tools/   docs/</text>
+<text x="80" y="301.3" font-family="Microsoft YaHei,sans-serif" font-size="17" font-weight="400" fill="#536C70">扩展加载 extension/，不加载源码目录</text>
+<text x="658" y="176.8" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#E8753F">02 / RELEASE ASSET</text>
+<text x="658" y="224.3" font-family="Microsoft YaHei,sans-serif" font-size="27" font-weight="700" fill="#17343B">Windows x64 运行组件</text>
+<text x="658" y="264.0" font-family="Segoe UI,sans-serif" font-size="20" font-weight="700" fill="#17343B">runtime/windows-x64/bsk-drag.exe</text>
+<text x="658" y="301.3" font-family="Microsoft YaHei,sans-serif" font-size="17" font-weight="400" fill="#536C70">独立 CLI / daemon，不覆盖全局安装</text>
+<polyline points="311,344 311,390" fill="none" stroke="#247D75" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="311,390 306.6851701525622,382.10175694298664 315.3148298474378,382.10175694298664" fill="#247D75"/>
+<polyline points="889,344 889,390" fill="none" stroke="#E8753F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="889,390 884.6851701525621,382.10175694298664 893.3148298474379,382.10175694298664" fill="#E8753F"/>
+<text x="433" y="376.1" font-family="Microsoft YaHei,sans-serif" font-size="19" font-weight="700" fill="#17343B">合并到一个项目根目录</text>
+<rect x="56" y="408" width="1088" height="133" rx="16" fill="#17343B"/>
+<text x="83" y="450.6" font-family="Segoe UI,sans-serif" font-size="24" font-weight="700" fill="#F7F5ED">browser-drag/</text>
+<text x="83" y="494.2" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#CDE3D5">extension/manifest.json</text>
+<text x="450" y="494.2" font-family="Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#FFC49F">runtime/windows-x64/bsk-drag.exe</text>
+<text x="83" y="521.4" font-family="Segoe UI,sans-serif" font-size="16" font-weight="700" fill="#CDE3D5">tools/bsk-drag.cmd</text>
+<text x="450" y="521.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#F7F5ED">同版本扩展 + CLI + 协议</text>
+<text x="56" y="577.6" font-family="Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#536C70">安装结构示意 · 不包含账号、Cookie、浏览器 profile 或采集数据</text>
+</svg>

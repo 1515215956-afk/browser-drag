@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img">
+<title>browser drag project schematic</title>
+<rect width="1200" height="620" fill="#FCFCF9"/>
+<text x="56" y="73.6" font-family="Microsoft YaHei,sans-serif" font-size="34" font-weight="700" fill="#17343B">一次输入，三层验收</text>
+<text x="56" y="113.2" font-family="Microsoft YaHei,sans-serif" font-size="18" font-weight="400" fill="#536C70">CLI → daemon → 扩展 → 原页回读；每层结果分别记录。</text>
+<rect x="56" y="171" width="242" height="162" rx="14" fill="#FFFFFF" stroke="#D7DFD9"/>
+<text x="76" y="200.8" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#247D75">01 / CALL</text>
+<text x="76" y="244.5" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#17343B">决策与 CLI</text>
+<text x="76" y="282.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">显式实例 · 当前会话</text>
+<text x="76" y="310.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">输入请求与目标</text>
+<polyline points="305,251 329,251" fill="none" stroke="#247D75" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="329,251 321.10175694298664,255.31482984743784 321.10175694298664,246.68517015256216" fill="#247D75"/>
+<rect x="338" y="171" width="242" height="162" rx="14" fill="#FFFFFF" stroke="#D7DFD9"/>
+<text x="358" y="200.8" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#247D75">02 / LOCAL</text>
+<text x="358" y="244.5" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#17343B">本地 daemon</text>
+<text x="358" y="282.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">52841 · 独立目录</text>
+<text x="358" y="310.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">配套协议通信</text>
+<polyline points="587,251 611,251" fill="none" stroke="#247D75" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="611,251 603.1017569429866,255.31482984743784 603.1017569429866,246.68517015256216" fill="#247D75"/>
+<rect x="620" y="171" width="242" height="162" rx="14" fill="#FFFFFF" stroke="#D7DFD9"/>
+<text x="640" y="200.8" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#247D75">03 / INPUT</text>
+<text x="640" y="244.5" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#17343B">MV3 扩展</text>
+<text x="640" y="282.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">合作状态 · 原生拖拽</text>
+<text x="640" y="310.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">按下、移动与释放</text>
+<polyline points="869,251 893,251" fill="none" stroke="#247D75" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="893,251 885.1017569429866,255.31482984743784 885.1017569429866,246.68517015256216" fill="#247D75"/>
+<rect x="902" y="171" width="242" height="162" rx="14" fill="#FFFFFF" stroke="#D7DFD9"/>
+<text x="922" y="200.8" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#247D75">04 / READ</text>
+<text x="922" y="244.5" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#17343B">同页回读</text>
+<text x="922" y="282.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">同一 tab · 同一挑战</text>
+<text x="922" y="310.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">页面结果与稳定性</text>
+<text x="56" y="383.3" font-family="Microsoft YaHei,sans-serif" font-size="17" font-weight="400" fill="#536C70">不要把后一层的结论，写进前一层的退出码。</text>
+<rect x="56" y="410" width="1088" height="138" rx="16" fill="#EAF0EA"/>
+<text x="83" y="441.8" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#247D75">INPUT</text>
+<text x="83" y="482.5" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#17343B">输入完成</text>
+<text x="83" y="516.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">本轮输入结束，鼠标已释放</text>
+<polyline points="420,434 420,523" fill="none" stroke="#CAD7CF" stroke-width="1" stroke-linejoin="round"/>
+<text x="438" y="441.8" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#247D75">PAGE</text>
+<text x="438" y="482.5" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#17343B">页面接受</text>
+<text x="438" y="516.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">当页明确接受或挑战消失</text>
+<polyline points="775,434 775,523" fill="none" stroke="#CAD7CF" stroke-width="1" stroke-linejoin="round"/>
+<text x="793" y="441.8" font-family="Segoe UI,sans-serif" font-size="12" font-weight="700" fill="#247D75">BUSINESS</text>
+<text x="793" y="482.5" font-family="Microsoft YaHei,sans-serif" font-size="25" font-weight="700" fill="#17343B">业务恢复</text>
+<text x="793" y="516.4" font-family="Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#536C70">原业务门禁另行核验</text>
+<text x="56" y="590.6" font-family="Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#536C70">原创架构示意 · 非平台截图 · 不表示验证码已通过</text>
+</svg>
